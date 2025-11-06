@@ -1,6 +1,6 @@
 ﻿public class InventoryUpdate
 {
-    Public static void Main(string[] args)
+    public static void Main(string[] args)
     {
         int inventory = 500;
         int itemsSold = 75;
@@ -18,6 +18,6 @@
 
         //Инкрементиране (Следваща фактура)
         invoiceNumber++; 
-        Console.WriteLine(&"Натрупани дни забавяне: " + lateDays);
+        Console.WriteLine("Натрупани дни забавяне: " + lateDays);
     }
 }
