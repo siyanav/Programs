@@ -18,6 +18,6 @@
 
         //Инкрементиране (Следваща фактура)
         invoiceNumber++; 
-        Console.WriteLine("Натрупани дни забавяне: " + lateDays);
+        Console.WriteLine("Следващ номер на фактура: " + lateDays);
     }
 }
