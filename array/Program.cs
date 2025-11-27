@@ -13,9 +13,9 @@
         Console.WriteLine("\nМасив: [ " + string.Join(", ", numbers) + "]");
 
         // Достъп до елементи чрез индекс
-        Console.WriteLine("Елемент на индекс 0: " + numbers[0]);
-        Console.WriteLine("Елемент на индекс 4: " + numbers[4]);
-        Console.WriteLine("Последният елемент (индекс " + (numbers.Lenght - 1) + "): " + numbers[numbers.Lenght - 1]);
+        Console.WriteLine("Елемент на индекс 0: " + numbers[0]); // Първи елемент (15)
+        Console.WriteLine("Елемент на индекс 4: " + numbers[4]); // Пети елемент (7)
+        Console.WriteLine("Последният елемент (индекс " + (numbers.Lenght - 1) + "): " + numbers[numbers.Lenght - 1]); // (18)
 
 
         //2. Търсене на елемент в масив (Линейно търсене)
