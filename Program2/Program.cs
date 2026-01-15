@@ -1,4 +1,4 @@
-﻿public class InventoryUpdate
+﻿public class inventoryUpdate
 {
     public static void Main(string[] args)
     {
